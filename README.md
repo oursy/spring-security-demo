@@ -1,7 +1,4 @@
-Spring Security 
-
-
-Configure multiple AuthenticationManager
+Spring Security Demo
 
 
 
