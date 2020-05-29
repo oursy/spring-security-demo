@@ -1,6 +1,6 @@
-package com.example.musercurity;
+package com.example.sercurity;
 
-import com.example.musercurity.dsl.MultipleAuthenticationFilter;
+import com.example.sercurity.dsl.MultipleAuthenticationFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -26,10 +26,10 @@ import java.util.List;
 
 @SpringBootApplication
 @RestController
-public class MusercurityApplication {
+public class SecurityApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MusercurityApplication.class, args);
+        SpringApplication.run(SecurityApplication.class, args);
     }
 
     @RequestMapping(value = "/user")
